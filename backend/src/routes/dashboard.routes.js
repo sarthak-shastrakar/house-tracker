@@ -9,5 +9,6 @@ router.use(protect);
 router.get('/stats', dashboardController.getStats);
 router.get('/budget-overview', dashboardController.getBudgetOverview);
 router.get('/recent-activity', dashboardController.getRecentActivity);
+router.get('/deleted-items', dashboardController.getDeletedItems);
 
 module.exports = router;
