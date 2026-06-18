@@ -12,3 +12,5 @@ router.get('/recent-activity', dashboardController.getRecentActivity);
 router.get('/deleted-items', dashboardController.getDeletedItems);
 
 module.exports = router;
+
+
